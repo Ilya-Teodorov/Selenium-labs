@@ -13,11 +13,11 @@ Scenario: Positioned video functionality
 	Then the page is not sent to YouTube, but the video is played on the site
 
 Scenario: Check epam events
-    Given the user navigates to https://www.epam.com/
-    When the user hovers over "ABOUT"
-    And the user clicks on "Events" in "INVESTORS" section
-    And the user clicks on "VIEW ALL" button
-    Then list of epam events is shown
+   	Given the user navigates to https://www.epam.com/
+    	When the user hovers over "ABOUT"
+    	And the user clicks on "Events" in "INVESTORS" section
+   	And the user clicks on "VIEW ALL" button
+    	Then list of epam events is shown
 
 Scenario: Checking the functionality of the language change button
 	Given language change button
